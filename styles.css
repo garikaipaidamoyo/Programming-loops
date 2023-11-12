@@ -1,0 +1,57 @@
+/* Reset some default margin/padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Style for the "Next" button */
+.next-button {
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    padding: 15px 30px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; 
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* Style for the background image */
+.background-image {
+    background-image: url('path/to/your/image.jpg'); /* Add the path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    position: relative;
+}
+
+/* Style for the main content on the first page */
+.main-content {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
