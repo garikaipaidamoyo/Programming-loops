@@ -38,7 +38,7 @@ h1 {
 
 /* Style for the background image */
 .background-image {
-    background-image: url('path/to/your/image.jpg'); /* Add the path to your image */
+    background-image: url('images/image-1.jpg'); /* Add the path to your image */
     background-size: cover;
     background-position: center;
     height: 100vh; 
