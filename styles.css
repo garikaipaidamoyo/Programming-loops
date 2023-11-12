@@ -1,7 +1,7 @@
 /* Reset some default margin/padding */
 body, h1, h2, p {
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
 }
 
 body {
@@ -21,7 +21,7 @@ h1 {
 
 /* Style for the "Next" button */
 .next-button {
-    background-color: #4CAF50; 
+    background-color:purple; 
     color: white; 
     border: none; 
     padding: 15px 30px; 
